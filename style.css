@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.common-btn {
+  background-color: #1d4ed8;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.navbar-parent {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.navbar-center ul {
+  list-style: none;
+  display: flex;
+  gap: 17px;
+}
+
+.navbar-center ul li a {
+  text-decoration: none;
+  color: #575757;
+}
+
+header {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)),
+    url("./assets/banner.jpg");
+  height: 90vh;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.header-top h1,
+p {
+  color: #ffffff;
+}
+
+.register-btn-style {
+  background-color: #1d4ed8;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.header-top p {
+  margin-top: 3%;
+}
+.header-top h1 {
+  font-size: 50px;
+}
