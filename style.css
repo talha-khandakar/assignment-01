@@ -34,20 +34,20 @@ header {
   background-image:
     linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)),
     url("./assets/banner.jpg");
-  height: 90vh;
+  min-height: 90vh;
 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
-  flex-direction: column;
+
   justify-content: space-around;
   align-items: center;
   text-align: center;
 }
 
 .header-top h1,
-p {
+.header-top p {
   color: #ffffff;
 }
 
@@ -65,4 +65,54 @@ p {
 }
 .header-top h1 {
   font-size: 50px;
+}
+
+.speaker-section {
+  max-width: 1150px;
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.speaker-section-parent img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.speaker-section-parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.speaker-section h1 {
+  margin-bottom: 5%;
+}
+.speaker-section-parent h4 {
+  color: #0d1b2a;
+}
+
+.speaker-section-parent .speaker-left-two,
+.speaker-section-parent .speaker-right-two {
+  margin-top: 8%;
+}
+.company-name-color {
+  color: #2563eb;
+}
+.another-color {
+  color: #575757;
+}
+.speaker-left-one p,
+.speaker-left-one h4 {
+  margin-top: 2%;
+}
+.speaker-left-two p,
+.speaker-left-two h4 {
+  margin-top: 2%;
+}
+.speaker-right-one p,
+.speaker-right-one h4 {
+  margin-top: 2%;
+}
+.speaker-right-two p,
+.speaker-right-two h4 {
+  margin-top: 2%;
 }
