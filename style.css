@@ -286,5 +286,29 @@ span {
 }
 
 .benefit-btn:hover {
-  background: #1d4ed8;
+  background: c;
+}
+
+footer {
+  text-align: center;
+}
+
+.footer-parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.left-side-footer img {
+  max-width: 100%;
+}
+
+.footer {
+  background: #0d1b2a;
+  padding: 15px 10%;
+}
+
+.right-side-footer a i {
+  font-size: 22px;
+  color: #2563eb;
 }
