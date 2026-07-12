@@ -314,3 +314,18 @@ footer {
   font-size: 22px;
   color: #2563eb;
 }
+
+.copyright-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright-right-p-parent {
+  display: flex;
+  gap: 17px;
+}
+
+.copyright-left p,
+.copyright-right-p-parent p {
+  color: gray;
+  margin-top: 10px;
+}
